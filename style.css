@@ -612,5 +612,19 @@ nav {
             gap: 24px;
             display: flex;
         }
-       
+        .first-container h1 {
+            font-size: 3em;
+            animation: nav-load 1000ms ease-in-out;
+        }
+        .skills-section {
+            background: #F8F4F1;
+          
+            display: block;
+        }
+        .skills-con1 h1 {
+            font-size: 1.5em;
+        }
+        .lower-mid h1 {
+            font-size: 15px;
+        }
     }
