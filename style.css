@@ -627,4 +627,7 @@ nav {
         .lower-mid h1 {
             font-size: 15px;
         }
+        .dual-pakg{
+            display: none;
+        }
     }
