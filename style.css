@@ -461,9 +461,13 @@ nav {
 }
 
 @media screen and (max-width: 618px) {
-.gallery{
-    display: grid;
-}
+    .gallery {
+        display: flex;
+        /* display: grid; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
 
 .dual-pakg {
     align-items: center;
@@ -599,4 +603,14 @@ nav {
         margin-bottom: 4px;
         background: black;
     }
+    }
+      @media screen and (max-width: 286px) {
+        .foot-com input {
+         padding: 0;
+        }
+        .mid-list-footer {
+            gap: 24px;
+            display: flex;
+        }
+       
     }
