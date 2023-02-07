@@ -660,19 +660,19 @@ nav {
  
         .dual-pakg input {
             background: white;
-            font-size: 10px;
+            font-size: 12px;
             border: none;
             box-shadow: -4px 7px 8px #00000045;
-            padding: 25px;
+            padding: 11px;
         }
 
         .dual-pakg button {
             cursor: pointer;
             background: #97C680;
-            padding: 18px;
+            padding: 8px;
             font-size: 20px;
             border: none;
-        }
+        }   
         .dual-pakg {
             align-items: center;
             height: 76px;
